@@ -29,7 +29,6 @@ public class MyAspect {
 	}
 	
 	@Around("@annotation(hivemind.aop.com.annotations.WrapThis)")
-//	@Around("execution(int need*(*))")
 	public Object wrapAround(ProceedingJoinPoint proceedingJoinPoint) throws Throwable{
 		logger.info("=================");
 		logger.info("Before call");
