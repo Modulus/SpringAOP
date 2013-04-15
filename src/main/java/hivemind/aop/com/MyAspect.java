@@ -44,11 +44,5 @@ public class MyAspect {
 		
 		
 	}
-	
-	
-	
-	
-//	@Around()
-//	public Object doAround()
-	
+
 }
